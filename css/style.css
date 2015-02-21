@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+body {
+	
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: bold;
+}
+
+p {
+	color:#333;
+}
+@media screen and (max-width:480px){
+.mylink{
+	color: #ff0000!important;
+	background:blue;
+}
+}
+@media (min-width:640px ) and (max-width: 800px){
+	.mylink{
+	color: #ff0000!important;
+	background:#000;
+}
+}
+@media screen and (max-width:540px){
+	
+}
+@media (min-width:541px ) and (max-width: 800px){
+.grid li{
+	width: 45%;
+	float: left;
+	margin: 5px !important;
+}
+.grid li a img {
+position: relative;
+float: none;
+max-width: 100px;
+}
+}
